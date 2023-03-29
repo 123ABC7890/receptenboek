@@ -1,4 +1,16 @@
+<?php
+    
+    require "database.php";
 
+    $sql = "SELECT * FROM canadese_recepten";
+
+    $result = mysqli_query($conn,$sql);
+
+    $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+    $rowcount = mysqli_num_rows($result);
+
+?>
 
 
 <!DOCTYPE html>
@@ -24,10 +36,9 @@
         <nav id="middle">
             <a href="index.php">Receptenboek</a>
         </nav>
-        <!-- <nav id="right">
-            <a href="">Right1</a>
-            <a href="">Right2</a>
-        </nav> -->
+        <nav id="right">
+            <a><?php echo $rowcount ?> recepten gevonden</a>
+        </nav>
 
 </body>
 </html>
