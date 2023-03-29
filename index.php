@@ -28,6 +28,9 @@
 
     <?php include "header.php" ?>
     
+    <h1>Candese Receptenboek</h1>
+    <img src="images/canada.png" style="width: 50%; display: flex; justify-content: center;">
+
     <?php include "footer.php" ?>
 </body>
 </html>
