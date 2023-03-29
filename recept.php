@@ -43,7 +43,7 @@
 
             <h2>Duur: <?php echo $recept["duur"] ?> minuten</h2>
             
-            <h2>Moeilijkheidsgraad: <?php echo $recept["moeilijkheidsgraad"] ?>/5</h2>
+            <h2>Moeilijkheidsgraad: <?php echo $recept["moeilijkheidsgraad"] ?></h2>
             
             <h2>Menugang: <?php echo $recept["menugang"] ?></h2>
             
