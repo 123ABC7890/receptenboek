@@ -8,8 +8,6 @@
 
     $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-    $rowcount = mysqli_num_rows($result);
-
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +28,6 @@
 
     <?php include "header.php" ?>
     
-    <h1><?php echo $rowcount ?> recepten gevonden</h1>
 
     <row>
 
