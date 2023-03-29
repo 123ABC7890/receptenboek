@@ -15,9 +15,7 @@
 <body>
     <footer>
         <div>
-            <a>Footer1</a>
-            <a>Footer2</a>
-            <a>Footer3</a>
+            <a>Canadese Receptenboek.Co</a>
         </div>
     </footer>
 
