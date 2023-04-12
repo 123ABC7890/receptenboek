@@ -31,14 +31,14 @@
 
     <row>
 
-    <?php foreach($recepten as $recept): ?>
+        <?php foreach($recepten as $recept): ?>
 
-        <div class="container">
-            <a href="recept.php?id=<?php echo $recept["id"] ?>"><?php echo $recept["naam"] ?></a>
-            <img src="<?php echo $recept["foto"] ?>" alt="no foto">
-        </div>
-        
-    <?php endforeach ?>
+            <div class="container">
+                <a href="recept.php?id=<?php echo $recept["id"] ?>"><?php echo $recept["naam"] ?></a>
+                <img src="<?php echo $recept["foto"] ?>" alt="no foto">
+            </div>
+            
+        <?php endforeach ?>
 
     </row>
 

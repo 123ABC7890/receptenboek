@@ -29,16 +29,16 @@
 </head>
 <body>
 
-        <nav id="left">
-            <a href="recepten.php">Recepten</a>
-            <a href="specials.php">Specials</a>
-        </nav>
-        <nav id="middle">
-            <a href="index.php">Receptenboek</a>
-        </nav>
-        <nav id="right">
-            <a><?php echo $rowcount ?> recepten gevonden</a>
-        </nav>
+    <nav id="left">
+        <a href="recepten.php">Recepten</a>
+        <a href="specials.php">Specials</a>
+    </nav>
+    <nav id="middle">
+        <a href="index.php">Receptenboek</a>
+    </nav>
+    <nav id="right">
+        <a><?php echo $rowcount ?> recepten gevonden</a>
+    </nav>
 
 </body>
 </html>
